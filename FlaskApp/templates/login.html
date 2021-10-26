@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page</title>
+    <link rel="stylesheet" type="text/css" href="/static/css/style.css">
+    <!--Font Awsome--------------------->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+</head>
+<body>
+    <section>
+        <!--Navigation-->
+
+        <nav>
+            <!--logo-->
+            <a class="logo" href="#"> Batch 15 </a>
+            <!--menu-->
+            <ul>
+                <li><a href="#" class="active">Home</a></li>
+                <li><a href="#run">Run</a></li>
+                <li><a href="#references">References</a></li>
+                <li><a href="#download">Download</a></li>
+            </ul>
+        </nav>
+        
+    <!--text-->
+    <div class="text-container">
+        <p>Air Canvas</p> 
+        <p>   using Computer Vision</p>
+        <a name="run"></a>
+        </div>
+        <!--Model-->
+        <img src="/static/images/finger.png" class="model" alt="mode">
+    </section>
+    <!--about-section-->
+    <div class="about-container">
+        <!--image-->
+        <img src="/static/images/cv2.png">
+        <!--abou text-->
+        <div class="about-text">
+            <!--Button--------->
+            <form action="#" method="POST">
+                <button class="hire-btn" type="submit">Start Execution</button>
+            </form>
+            <hr>
+            <i style="font-size:20px; margin-top: 7px; color: red;" class="fa">&#xf05a;  Instructions:</i>
+            <ul style="list-style-type:disc">
+                <li>Press Q to terminate the application.</li>
+                <li>Pick a color using both index and middle finger simultaneously.</li>
+                <li>Draw using index finger.</li>
+              </ul>            
+        </div>
+    </div>
+    <!--Services-->
+    <a name="references"></a>
+    <div class="services">
+        <!--text--------------------------------->
+        <div class="services-text">
+            <p>Technologies</p>
+            <p>Required packages and language:</p>
+            <ul style="list-style-type:disc";>
+                <li>OpenCV</li>
+                <li>MediaPipe</li>
+                <li>Python</li>
+                <li>Flask</li>
+            </ul>
+        </div>
+        <!--box---------------------------------->
+        <div class="box-container">
+            <!--1-------->
+            <div class="box-1">
+                <span>1</span>
+                <p class="heading">OpenCV</p>
+                <p class="details">OpenCV was built to provide a common infrastructure for computer vision applications and to accelerate the use of machine perception in the commercial products. </p>
+                <button><a href="https://pypi.org/project/opencv-python/" target="_blank">Read More</a></button>
+            </div>
+            <!--2-------->
+            <div class="box-2">
+                <span>2</span>
+                <p class="heading">MediaPipe</p>
+                <p class="details">MediaPipe is a framework for building multimodal (eg. video, audio, any time series data), cross platform (i.e Android, iOS, web, edge devices) applied ML pipelines. </p>
+                <button><a href="https://google.github.io/mediapipe/" target="_blank">Read More</a></button>
+            </div>
+            <!--3-------->
+            <div class="box-3">
+                <span>3</span>
+                <p class="heading">Python</p>
+                <p class="details">Python is an interpreted high-level general-purpose programming language. Python's design philosophy emphasizes code readability with its notable use of significant indentation.</p>
+                <button><a href="https://www.python.org/" target="_blank">Read More</a></button>
+            </div>
+        </div>
+    <!--Contact Me----------------------------------------->
+        <a name="download"></a>
+        <div class="contact-me">
+            <p>Download the codes here! And just execute child code to run application.</p>
+            <div>
+                <button class="down-cv"><a href="/static/code/AirCanvas.py" target="_blank" download rel="noopener noreferrer">Download Child Code</a></button>
+                <button class="down-cv1"><a href="/static/code/Hand_Tracking_Module.py" target="_blank" download rel="noopener noreferrer">Download Base Code</a></button>
+            </div>
+        </div>
+    </body>
+</html>
